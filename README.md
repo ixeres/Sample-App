@@ -1,24 +1,37 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Ruby on Rails Sample Application
 
-Things you may want to cover:
+## License
 
-* Ruby version
+All source code in this application is available jointly under the MIT License and the Beerware License. See [LICENSE.md] (LICENSE.md) for details.
 
-* System dependencies
+## Getting started
 
-* Configuration
+To get started, clone the repo and then install the needed gems:
 
-* Database creation
+$ bundle install
 
-* Database initialization
+---
 
-* How to run the test suite
+Migrate the database:
 
-* Services (job queues, cache servers, search engines, etc.)
+$ rails db:migrate
 
-* Deployment instructions
+---
 
-* ...
+Run test suite to verify functionality:
+
+$ rails test
+
+---
+
+If test suite passes, run app in a local server:
+
+$ rails server
+
+---
+
+KTHX.
+
+- iXeres (wrote a README for once)
